@@ -27,7 +27,7 @@ export const site = {
     tiktok: 'https://www.tiktok.com/@drivingtone.sa',
     snapchat: 'https://www.snapchat.com/@drivingtone.sa',
     x: 'https://x.com/drivingtone1',
-    maps: 'https://www.google.com/maps/place/نغمة+القيادة+لتأجير+السيارات+الفارهة'
+    maps: 'https://maps.app.goo.gl/8PwL4iGeCo7gVYaV6'
   }
 };
 
