@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Relative base keeps assets GitHub Pages-safe for both project pages and custom domains.
-// Override with VITE_BASE_PATH=/repo-name/ only if you intentionally want absolute asset URLs.
+// GitHub Pages project URL target: https://ranad0.github.io/test/
+// Change VITE_BASE_PATH when deploying under another repository or custom path.
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || './',
+  base: process.env.VITE_BASE_PATH || '/test/',
   build: {
     sourcemap: false,
     assetsDir: 'assets'
